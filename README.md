@@ -26,6 +26,7 @@ Changelog:
 **Primary Track:** **Alexa+** *(Self-Hosted Streamable HTTP Model Context Protocol [MCP] Server & Agent Skill)*  
 **Mini-Challenge:** **AWS Builder Mini Challenge** *(Amazon Bedrock AgentCore + Nova Pro Multi-Turn Orchestration)*  
 **Cross-Device Ecosystem Layers:** **Fire TV / Vega OS 10-Foot Fleet HUD** (`/firetv/hud`) & **Ring Perimeter Webhook Correlator** (`/ring/webhook`)  
+**2m15s 1080p Video Walkthrough:** [https://youtu.be/_c_2vRqCPdw](https://youtu.be/_c_2vRqCPdw)  
 **Live Sovereign Triad Cloud Outpost:** [https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app](https://axisos-sovereign-triad-4zye7tn3qq-uw.a.run.app)  
 **Live Console HUD:** [https://axisos.pro/console/](https://axisos.pro/console/)  
 
