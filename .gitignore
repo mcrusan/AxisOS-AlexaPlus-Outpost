@@ -1,0 +1,20 @@
+# ==============================================================================
+# File: .gitignore
+# Project: AxisOS Alexa+ Outpost (Crusan & Co.)
+# Author: Marc F. Crusan / Crusan & Co. w/ AGY
+# Date: 2026-10-20
+# Description: Git ignore rules for AxisOS Alexa+ Outpost.
+# Changelog:
+#   - 2026-10-20 (MFC/AGY): Initial creation.
+# ==============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+.env
+*.bak
+*~
+~*

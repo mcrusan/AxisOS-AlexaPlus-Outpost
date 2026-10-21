@@ -1,0 +1,42 @@
+{
+  "_header": {
+    "file": "infra/bedrock_agentcore_schema.json",
+    "project": "AxisOS Alexa+ Outpost (Crusan & Co.)",
+    "author": "Marc F. Crusan / Crusan & Co. w/ AGY",
+    "date": "2026-10-20",
+    "description": "Amazon Bedrock AgentCore Action Group OpenAPI 3.0 schema for the AWS Builder Mini-Challenge.",
+    "changelog": ["2026-10-20 (MFC/AGY): Initial creation for AWS Builder Mini-Challenge."]
+  },
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AxisOS Alexa+ Sovereign Outpost Bedrock Action Group",
+    "version": "1.0.0",
+    "description": "Bridges Amazon Alexa+ voice intents and Amazon Bedrock AgentCore to the AxisOS Sovereign Triad, Node 001 RP2350 mesh, Ring perimeter sensors, and Fire TV 10-Foot HUD."
+  },
+  "paths": {
+    "/mcp/tools/axisos_triad_telemetry": {
+      "post": {
+        "operationId": "axisos_triad_telemetry",
+        "summary": "Read live /proc and /sys kernel telemetry and Sovereign Triad status in 112 microseconds."
+      }
+    },
+    "/mcp/tools/axisos_ring_perimeter_correlate": {
+      "post": {
+        "operationId": "axisos_ring_perimeter_correlate",
+        "summary": "Correlate Ring camera/doorbell motion events with Node 001 RP2350 dual-homed mesh telemetry."
+      }
+    },
+    "/mcp/tools/axisos_firetv_hud_dispatch": {
+      "post": {
+        "operationId": "axisos_firetv_hud_dispatch",
+        "summary": "Push a 10-foot multimodal telemetry & security card to the Fire TV / Vega OS Fleet HUD."
+      }
+    },
+    "/mcp/tools/axisos_worm_vault_guard": {
+      "post": {
+        "operationId": "axisos_worm_vault_guard",
+        "summary": "Enforce Write-Once-Read-Many (WORM) Anti-Data-Loss Vault protection on Axis-Agent (:8082)."
+      }
+    }
+  }
+}

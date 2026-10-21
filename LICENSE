@@ -1,0 +1,50 @@
+# ==============================================================================
+# File: LICENSE
+# Project: AxisOS Alexa+ Outpost (Crusan & Co.)
+# Author: Marc F. Crusan / Crusan & Co. w/ AGY
+# Date: 2026-10-20
+# Description: MIT License for external Alexa+ MCP adapter with explicit
+#              Crusan & Co. Proprietary Core Exclusion Notice.
+# Changelog:
+#   - 2026-10-20 (MFC/AGY): Initial creation with IP exclusion notice.
+# ==============================================================================
+
+MIT License
+
+Copyright (c) 2026 Crusan & Co. (Marc F. Crusan w/ AGY) — AxisOS Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+==============================================================================
+SCOPE OF LICENSE & CRUSAN & CO. PROPRIETARY CORE EXCLUSION NOTICE
+==============================================================================
+The MIT License above applies strictly and exclusively to the AxisOS Alexa+
+Outpost external Model Context Protocol (MCP) Streamable HTTP adapter,
+Amazon Bedrock AgentCore bridge, Fire TV HUD simulator, and test suite source
+files contained within this repository ("the Software").
+
+No license, right, title, or interest—express or implied—is granted under this
+repository to the underlying AxisOS Tiny OS (`axisos-initramfs.img` RAM-boot
+runtime), the freestanding C99 direct kernel syscall stack (`axis-syscalls.c`,
+`axis-loop.c`, `svc #0` / `syscall`), the AxisOS Sovereign Triad core agents
+(including `zero-core`, `agent-lite` / `lite`, `axis-agent`, `zero-comms`,
+`zero-brain`, and `cloud-triad-gateway`), the `RAMGAK` DDR4 memory bracket
+architecture, or any pre-loaded AxisOS hardware images, trademarks, trade
+secrets, or proprietary binaries, all of which remain the exclusive,
+proprietary intellectual property of Crusan & Co. (Marc F. Crusan).

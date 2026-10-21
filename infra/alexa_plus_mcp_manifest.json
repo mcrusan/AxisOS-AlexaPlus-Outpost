@@ -1,0 +1,33 @@
+{
+  "_header": {
+    "file": "infra/alexa_plus_mcp_manifest.json",
+    "project": "AxisOS Alexa+ Outpost (Crusan & Co.)",
+    "author": "Marc F. Crusan / Crusan & Co. w/ AGY",
+    "date": "2026-10-20",
+    "description": "Open Model Context Protocol (MCP) Streamable HTTP manifest for Amazon Alexa+ Agentic Integration.",
+    "changelog": ["2026-10-20 (MFC/AGY): Initial creation for Amazon Developer Hackathon (Alexa+ Track)."]
+  },
+  "mcpVersion": "2025-03-26",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "/mcp",
+    "protocol": "jsonrpc-2.0",
+    "contentTypes": ["application/json", "text/event-stream"]
+  },
+  "serverInfo": {
+    "name": "axisos-alexaplus-sovereign-outpost",
+    "version": "1.0.0",
+    "vendor": "Crusan & Co.",
+    "platform": "AxisOS Sovereign Triad (HONEST • AUDITABLE • OWNED)"
+  },
+  "alexaPlusSkillBinding": {
+    "invocationName": "axis outpost",
+    "supportedEcosystems": ["Alexa+", "Fire TV / Vega OS 10-Foot HUD", "Ring Perimeter Events", "AWS Bedrock AgentCore"],
+    "sampleUtterances": [
+      "Alexa, ask Axis Outpost for a Sovereign Triad and RAMGAK memory status",
+      "Alexa, ask Axis Outpost to correlate the Ring front gate motion with Node 001 mesh telemetry",
+      "Alexa, tell Axis Outpost to project the live Fleet Deck HUD onto Fire TV",
+      "Alexa, ask Axis Outpost to commit an immutable WORM checkpoint"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_header": {
+    "file": "infra/firetv_vega_hud_manifest.json",
+    "project": "AxisOS Alexa+ Outpost (Crusan & Co.)",
+    "author": "Marc F. Crusan / Crusan & Co. w/ AGY",
+    "date": "2026-10-20",
+    "description": "Fire TV / Vega OS 10-Foot Multimodal HUD configuration for AxisOS Outpost.",
+    "changelog": ["2026-10-20 (MFC/AGY): Initial creation."]
+  },
+  "appId": "pro.axisos.firetv.outpost.hud",
+  "title": "AxisOS Fleet Deck — Fire TV 10-Foot Sovereign HUD",
+  "vendor": "Crusan & Co.",
+  "targetPlatforms": ["Fire OS 8+", "Vega OS Web Runtime", "Android TV Emulator"],
+  "resolution": "1920x1080",
+  "dpadNavigation": true,
+  "alexaPlusMcpLinked": true,
+  "panels": [
+    "Sovereign Triad Reflex Panel (:8081 Zero-Core, :8080 Agent-Lite, :8082 Axis-Agent)",
+    "RAMGAK DDR4 Memory Bracket & Thermal Gauge",
+    "Node 001 (RP2350 Pico 2 W) Dual-Homed Mesh & Ring Perimeter Correlation Feed",
+    "WORM Anti-Data-Loss Vault Audit Ledger"
+  ]
+}
