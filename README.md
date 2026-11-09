@@ -1,17 +1,14 @@
 <!--
 ==============================================================================
-File: README.md
-Project: AxisOS Alexa+ Outpost (Crusan & Co.)
-Author: Marc F. Crusan / Crusan & Co. w/ AGY
-Date: 2026-10-20
-Description: Production README for AxisOS Alexa+ Sovereign Outpost — Build,
-             Ship, Shape: Amazon Developer Hackathon Submission (Alexa+ Primary
-             Track + AWS Builder Mini-Challenge + Fire TV 10-Foot HUD + Ring).
-Changelog:
-  - 2026-10-20 (MFC/AGY): Created complete technical README with MIT license
-    badge, Crusan & Co. IP exclusion notice, and setup instructions.
+File:        README.md
+Description: Production README for Crusan & Co. AxisOS™ Alexa+ Sovereign Outpost (Streamable HTTP MCP Server, Bedrock AgentCore, Fire TV 10-Foot HUD & Ring).
+Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+Date:        2026110901
+Version:     v1.1.0-Silicon
 ==============================================================================
 -->
+<!-- 2026110901 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header & USPTO SN 99878469 notice. -->
+<!-- 2026102001 (MFC/AGY) Created complete technical README with MIT license badge and IP exclusion notice. -->
 
 # Crusan & Co. — AxisOS Alexa+ Sovereign Outpost
 ### **Self-Hosted Streamable HTTP Model Context Protocol (MCP) Server Uniting Amazon Alexa+, Fire TV 10-Foot Fleet HUD, Ring Perimeter Sensors, Amazon Bedrock AgentCore & the Freestanding C99 AxisOS Triad**
@@ -20,7 +17,7 @@ Changelog:
 [![Pillars: HONEST • AUDITABLE • OWNED](https://img.shields.io/badge/AxisOS-HONEST%20%E2%80%A2%20AUDITABLE%20%E2%80%A2%20OWNED-brightgreen.svg)](https://axisos.pro)
 
 **Parent Entity:** Crusan & Co.  
-**Flagship Platform:** AxisOS (`HONEST` • `AUDITABLE` • `OWNED`)  
+**Flagship Platform:** **AxisOS™** (`HONEST` • `AUDITABLE` • `OWNED` — *U.S. Trademark Application Serial No. `99878469`*)  
 **Architect:** Marc F. Crusan (w/ AGY)  
 **Hackathon:** Build, Ship, Shape: Amazon Developer Hackathon (`$138,000`)  
 **Primary Track:** **Alexa+** *(Self-Hosted Streamable HTTP Model Context Protocol [MCP] Server & Agent Skill)*  
